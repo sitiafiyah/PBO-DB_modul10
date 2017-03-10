@@ -26,7 +26,7 @@ Hasil dari data yang telah Anda tambahkan di atas tadi. <br>
 
 **ScreenShoot 6** <br>
 Notifikasi ketika Anda berhasil menghapus data. <br>
-![10](https://github.com/sitiafiyah/PBO-DB_modul10/blob/master/10.JPG)
+![a](https://github.com/sitiafiyah/PBO-DB_modul10/blob/master/a.JPG)
 
 **ScreenShoot 7** <br>
 Data yang Anda hapus sudah tidak ada. <br>
