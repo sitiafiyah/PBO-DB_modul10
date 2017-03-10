@@ -40,11 +40,11 @@ public class Login extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         txtnama = new javax.swing.JTextField();
-        txtpass = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
-        jPanel1 = new javax.swing.JPanel();
+        txtpass = new javax.swing.JPasswordField();
+        jPanel2 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -58,8 +58,6 @@ public class Login extends javax.swing.JFrame {
         jLabel2.setBounds(170, 130, 80, 30);
         getContentPane().add(txtnama);
         txtnama.setBounds(120, 80, 150, 30);
-        getContentPane().add(txtpass);
-        txtpass.setBounds(120, 160, 150, 30);
 
         jButton1.setText("Sign Up");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -87,10 +85,12 @@ public class Login extends javax.swing.JFrame {
         });
         getContentPane().add(jButton3);
         jButton3.setBounds(250, 230, 90, 30);
+        getContentPane().add(txtpass);
+        txtpass.setBounds(120, 160, 150, 30);
 
-        jPanel1.setBackground(new java.awt.Color(102, 255, 102));
-        getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 410, 320);
+        jPanel2.setBackground(new java.awt.Color(153, 255, 153));
+        getContentPane().add(jPanel2);
+        jPanel2.setBounds(0, 0, 410, 320);
 
         setBounds(0, 0, 421, 354);
     }// </editor-fold>//GEN-END:initComponents
@@ -182,9 +182,9 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JTextField txtnama;
-    private javax.swing.JTextField txtpass;
+    private javax.swing.JPasswordField txtpass;
     // End of variables declaration//GEN-END:variables
 
 }
